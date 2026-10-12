@@ -14,7 +14,7 @@ public class Words {
 
     public Words(String o, String e, String p, String n, double s, double sp, double sn){
         origWord = o;
-        editWord = e; 
+        editWord = e;
         posWord = p;
         negWord = n;
         sentOrigValue = s;
@@ -34,4 +34,49 @@ public class Words {
     public static boolean getNegFlag(){
         return negFlag;
     }
+
+    public String getOrigWord() {
+    return origWord;
+}
+
+public String getEditWord() {
+    return editWord;
+}
+
+public String getPosWord() {
+    return posWord;
+}
+
+public String getNegWord() {
+    return negWord;
+}
+
+public double getValue() {
+    return sentOrigValue;
+}
+
+public double getPosValue() {
+    return sentPosValue;
+}
+
+public double getNegValue() {
+    return sentNegValue;
+}
+
+public void setPosWord(String p) {
+    posWord = p;
+}
+
+public void setPosValue(double v) {
+    sentPosValue = v;
+}
+
+public void setNegWord(String n) {
+    negWord = n;
+}
+
+public void setNegValue(double v) {
+    sentNegValue = v;
+}
+
 }

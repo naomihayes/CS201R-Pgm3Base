@@ -6,4 +6,12 @@ public class SentList {
       word = w;
       value = v;
     }
+
+    public String getWord(){
+      return word;
+    }
+
+    public double getValue(){
+      return value;
+    }
 }
